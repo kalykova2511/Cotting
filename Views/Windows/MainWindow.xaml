@@ -1,0 +1,31 @@
+﻿<Window x:Class="Cotting.Views.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vw="clr-namespace:Cotting.ViewModels"
+        mc:Ignorable="d"
+        Title="{Binding Title}" Height="450" Width="800"
+        x:Name="Main"
+        WindowState="Maximized">
+    <Window.DataContext>
+        <vw:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid Background="#FF0975B4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="277*"/>
+            <RowDefinition Height="157*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="20,20,20,-61" Grid.RowSpan="2">
+            <TextBlock Margin="10 10" HorizontalAlignment="Center" Height="60" TextWrapping="Wrap" Text="Hello World!" VerticalAlignment="Top" 
+                       TextAlignment="Center" FontFamily="Cascadia Code SemiBold" FontSize="48"/>
+            <TextBlock Height="142" TextWrapping="Wrap" Text="{Binding Intro}" Width="722" 
+                       TextAlignment="Center" FontSize="20" FontFamily="Cascadia Mono Light"/>
+            <Button Height="50" Width="310"
+                    Margin="20 20" Background="#FF2EC5FF" 
+                    Content="Начать путешествие" FontSize="16" FontFamily="Cascadia Mono SemiLight"
+                    Click="Button_Click"/>
+            <Image Source="/Views/Windows/Pictures/cats.jpg" Width="300" />
+        </StackPanel>
+    </Grid>
+</Window>

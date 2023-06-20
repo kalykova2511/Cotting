@@ -1,0 +1,84 @@
+﻿<Page x:Class="Cotting.Views.Windows.Introduction"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vw="clr-namespace:Cotting.ViewModels"
+        mc:Ignorable="d"
+        Title="Введение" Height="600" Width="900">
+    <Page.DataContext>
+        <vw:IntroductionWindowViewModel/>
+    </Page.DataContext>
+    <Page.Resources>
+        <Style x:Key="UsualText">
+            <Setter Property="Control.FontSize" Value="16" />
+            <Setter Property="Control.VerticalAlignment" Value="Center" />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+            <Setter Property="Control.Height" Value="24" />
+            <Setter Property="Control.Width" Value="525" />
+            <Setter Property="Control.FontFamily" Value="Cascadia Mono SemiLight" />
+        </Style>
+    </Page.Resources>
+    <Grid Background="#FFA9D5F8" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"></ColumnDefinition>
+            <ColumnDefinition Width="17*"></ColumnDefinition>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="25*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="44*"></RowDefinition>
+            <RowDefinition Height="71*"></RowDefinition>
+            <RowDefinition Height="54*"></RowDefinition>
+            <RowDefinition Height="56*"></RowDefinition>
+            <RowDefinition Height="56*"></RowDefinition>
+            <RowDefinition Height="56*"></RowDefinition>
+            <RowDefinition Height="56*"></RowDefinition>
+            <RowDefinition Height="56*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Viewbox  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <TextBlock x:Name="TB"
+                   MinWidth="300"
+                   TextWrapping="Wrap" Text="{Binding Introduction}" 
+                   Grid.ColumnSpan="2" FontSize="36" Height="173" Width="1400" FontFamily="Cascadia Mono SemiBold"/>
+        </Viewbox>
+
+        <Image Source="Icons/graduation-cap.png"
+                Margin="12 12" Grid.Column="1" Grid.Row="2"/>
+
+        <Image Source="Icons/list-check.png"
+               Margin="12 12" Grid.Column="1" Grid.Row="3"/>
+
+        <Image Source="Icons/check.png"
+               Margin="12 12" Grid.Column="1" Grid.Row="4"/>
+
+        <Image Source="Icons/pencil.png"
+               Margin="12 12" Grid.Column="1" Grid.Row="5"/>
+
+        <Image Source="Icons/search.png"
+               Margin="12 12" Grid.Column="1" Grid.Row="6"/>
+
+        <Viewbox Grid.Column="2" Grid.Row="2" Stretch="Uniform">
+            <TextBlock Style="{StaticResource UsualText}" Text="{Binding GraduationCup}" Height="28" Width="558"/>
+        </Viewbox>
+
+        <Viewbox Grid.Column="2" Grid.Row="3" Stretch="Uniform">
+            <TextBlock Style="{StaticResource UsualText}" Text="{Binding List}"/>
+        </Viewbox>
+
+        <Viewbox Grid.Column="2" Grid.Row="4" Stretch="Uniform">
+            <TextBlock Style="{StaticResource UsualText}" Text="{Binding Check}"/>
+        </Viewbox>
+
+        <Viewbox Grid.Column="2" Grid.Row="5" Stretch="Uniform">
+            <TextBlock Style="{StaticResource UsualText}"  Text="{Binding Pen}"/>
+        </Viewbox>
+
+        <Viewbox Grid.Column="2" Grid.Row="6" Stretch="Uniform">
+            <TextBlock Style="{StaticResource UsualText}"  Text="{Binding Search}"/>
+        </Viewbox>
+    </Grid>
+</Page>

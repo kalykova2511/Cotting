@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cotting.ViewModels.Base.ViewModel">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Base\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cotting.ViewModels.IntroductionWindowViewModel" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgQAAAACAAAQAAAAAAAAAAAAAAQAAAAAAAlACI=</HashCode>
+      <FileName>ViewModels\IntroductionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.LearningWindowViewModel" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAiAAAAAACAAAAAAAAAAAAAAAAAAAAAEAEAAAAAA=</HashCode>
+      <FileName>ViewModels\LearningWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.MainWindowViewModel" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.TopicsWindowViewModel" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAIAAAAAAACAAAAAiAACAAAAAEAEEAAAAA=</HashCode>
+      <FileName>ViewModels\TopicsWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.VarPageViewModel" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAAAIAAAAAAAAABAAAAAAAAgAQAAEQkAAAAAA=</HashCode>
+      <FileName>ViewModels\VarPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.VSPageViewModel" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAAAgIAAAAEAAAAAACAQAAAAAAAAAMQEAAAAAA=</HashCode>
+      <FileName>ViewModels\VSPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.ConditionalstatementsViewModel" Collapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ConditionalstatementsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.ArraysViewModel" Collapsed="true">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ArraysViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.CyclesViewModel" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CyclesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotting.ViewModels.MethodsViewModel" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MethodsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

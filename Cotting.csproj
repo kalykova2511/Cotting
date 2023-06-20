@@ -1,0 +1,137 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Views\Windows\Icons\cat_learning.webp" />
+		<None Remove="Views\Windows\Icons\check.png" />
+		<None Remove="Views\Windows\Icons\graduation-cap.png" />
+		<None Remove="Views\Windows\Icons\idea.png" />
+		<None Remove="Views\Windows\Icons\idea1.png" />
+		<None Remove="Views\Windows\Icons\line.png" />
+		<None Remove="Views\Windows\Icons\list-check.png" />
+		<None Remove="Views\Windows\Icons\n.png" />
+		<None Remove="Views\Windows\Icons\pencil.png" />
+		<None Remove="Views\Windows\Icons\search.png" />
+		<None Remove="Views\Windows\Icons\smile.png" />
+		<None Remove="Views\Windows\Icons\yes.png" />
+		<None Remove="Views\Windows\Pictures\background.png" />
+		<None Remove="Views\Windows\Pictures\bg.png" />
+		<None Remove="Views\Windows\Pictures\cat.jpg" />
+		<None Remove="Views\Windows\Pictures\cat3.jpg" />
+		<None Remove="Views\Windows\Pictures\cat4.jpg" />
+		<None Remove="Views\Windows\Pictures\cats.jpg" />
+		<None Remove="Views\Windows\Pictures\cycles1.jpg" />
+		<None Remove="Views\Windows\Pictures\cycles2.jpg" />
+		<None Remove="Views\Windows\Pictures\cycles3.jpg" />
+		<None Remove="Views\Windows\Pictures\cycles4.jpg" />
+		<None Remove="Views\Windows\Pictures\cycles5.jpg" />
+		<None Remove="Views\Windows\Pictures\cycles6.jpg" />
+		<None Remove="Views\Windows\Pictures\hello.jpg" />
+		<None Remove="Views\Windows\Pictures\Install.jpg" />
+		<None Remove="Views\Windows\Pictures\Install2.jpg" />
+		<None Remove="Views\Windows\Pictures\Install3.jpg" />
+		<None Remove="Views\Windows\Pictures\Install4.jpg" />
+		<None Remove="Views\Windows\Pictures\Install5.jpg" />
+		<None Remove="Views\Windows\Pictures\Kitty.jpg" />
+		<None Remove="Views\Windows\Pictures\motivation2.jpg" />
+		<None Remove="Views\Windows\Pictures\operators1.jpg" />
+		<None Remove="Views\Windows\Pictures\operators2.jpg" />
+		<None Remove="Views\Windows\Pictures\operators3.jpg" />
+		<None Remove="Views\Windows\Pictures\operators4.jpg" />
+		<None Remove="Views\Windows\Pictures\operators5.jpg" />
+		<None Remove="Views\Windows\Pictures\operators6.jpg" />
+		<None Remove="Views\Windows\Pictures\operators7.jpg" />
+		<None Remove="Views\Windows\Pictures\operators8.jpg" />
+		<None Remove="Views\Windows\Pictures\operators9.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage1.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage10.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage11.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage12.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage13.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage14.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage2.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage3.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage4.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage5.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage6.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage7.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage8.jpg" />
+		<None Remove="Views\Windows\Pictures\varImage9.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Views\Windows\Pictures\cycles2.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Views\Windows\Pictures\cat4.jpg" />
+	  <Resource Include="Views\Windows\Pictures\cycles1.jpg" />
+	  <Resource Include="Views\Windows\Pictures\cycles3.jpg" />
+	  <Resource Include="Views\Windows\Pictures\cycles4.jpg" />
+	  <Resource Include="Views\Windows\Pictures\cycles5.jpg" />
+	  <Resource Include="Views\Windows\Pictures\cycles6.jpg" />
+	  <Resource Include="Views\Windows\Pictures\operators5.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Views\Windows\Pictures\cat3.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="ScottPlot.WPF" Version="4.1.64" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Views\Windows\Icons\cat_learning.webp" />
+		<Resource Include="Views\Windows\Icons\check.png" />
+		<Resource Include="Views\Windows\Icons\graduation-cap.png" />
+		<Resource Include="Views\Windows\Icons\idea1.png" />
+		<Resource Include="Views\Windows\Icons\line.png" />
+		<Resource Include="Views\Windows\Icons\list-check.png" />
+		<Resource Include="Views\Windows\Icons\n.png" />
+		<Resource Include="Views\Windows\Icons\pencil.png" />
+		<Resource Include="Views\Windows\Icons\search.png" />
+		<Resource Include="Views\Windows\Icons\smile.png" />
+		<Resource Include="Views\Windows\Icons\yes.png" />
+		<Resource Include="Views\Windows\Pictures\background.png" />
+		<Resource Include="Views\Windows\Pictures\bg.png" />
+		<Resource Include="Views\Windows\Pictures\cat.jpg" />
+		<Resource Include="Views\Windows\Pictures\cats.jpg" />
+		<Resource Include="Views\Windows\Pictures\hello.jpg" />
+		<Resource Include="Views\Windows\Pictures\Install.jpg" />
+		<Resource Include="Views\Windows\Pictures\Install2.jpg" />
+		<Resource Include="Views\Windows\Pictures\Install3.jpg" />
+		<Resource Include="Views\Windows\Pictures\Install4.jpg" />
+		<Resource Include="Views\Windows\Pictures\Install5.jpg" />
+		<Resource Include="Views\Windows\Pictures\Kitty.jpg" />
+		<Resource Include="Views\Windows\Pictures\motivation2.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators1.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators2.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators3.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators4.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators6.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators7.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators8.jpg" />
+		<Resource Include="Views\Windows\Pictures\operators9.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage10.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage11.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage12.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage13.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage14.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage2.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage3.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage4.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage5.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage6.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage7.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage8.jpg" />
+		<Resource Include="Views\Windows\Pictures\varImage9.jpg" />
+	</ItemGroup>
+
+</Project>
